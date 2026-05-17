@@ -45,6 +45,15 @@
   padding-bottom: 24px;
 }
 
+.header-nav-link::after {
+  content: "";
+  display: block;
+  border-radius: 2px;
+  width: 65px;
+  height: 4px;
+  background-color: #404bbf;
+}
+
 .address-nav-list {
   display: flex;
   column-gap: 40px;
